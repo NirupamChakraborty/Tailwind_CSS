@@ -829,6 +829,201 @@
  <h1>breaking points or media queries</h1>
 
  <div class="w-[500px] h-[500px] bg-indigo-500 sm:bg-pink-800 md:bg-blue-800 lg:bg-green-800">Media Queries</div>
+ <!-- similarly for xl ,2xl, 3xl -->
+
+ <br><hr><br>
+ <br><br><br><br><br><br>
+
+
+ <h1>Flexbox</h1>
+
+ <div class="border m-10">
+    <ul class="flex">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+
+
+
+
+ <!-- flex direction -->
+
+
+ <div class="border m-10">
+    <ul class="flex flex-col">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+
+
+<!-- justify content -->
+
+<div class="border m-10">
+    <ul class="flex justify-start">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+
+<div class="border m-10">
+    <ul class="flex justify-end">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+ <div class="border m-10">
+    <ul class="flex justify-center">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+<!-- space between -->
+
+ <div class="border m-10">
+    <ul class="flex justify-between">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+ <!-- space around-->
+ <div class="border m-10">
+    <ul class="flex justify-around">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+    </ul>
+ </div>
+
+
+<!-- order -->
+
+<!-- order can also be used to reverse the li -->
+
+<div class="border m-10">
+    <ul class="flex">
+        <li class="bg-teal-100 m-5 p-5 order-5">01</li>
+        <li class="bg-teal-100 m-5 p-5 order-3">02</li>
+        <li class="bg-teal-100 m-5 p-5 order-4">03</li>
+        <li class="bg-teal-100 m-5 p-5order-2">04</li>
+        <li class="bg-teal-100 m-5 p-5 order-1">05</li>
+    </ul>
+ </div>
+
+
+
+
+ <!-- GROW AND SHRINK -->
+
+
+
+
+
+ <div class="border m-10">
+    <ul class="flex w-100">
+        <li class="bg-teal-100 m-5 p-5 flex-none">01</li>
+        <li class="bg-teal-100 m-5 p-5 flex-initial">02</li>
+        <li class="bg-teal-100 m-5 p-5 flex-auto">03</li>
+        <li class="bg-teal-100 m-5 p-5 flex-1">04</li>
+        <li class="bg-teal-100 m-5 p-5 ">05</li>
+        <li class="bg-teal-100 m-5 p-5 ">06</li>
+        <li class="bg-teal-100 m-5 p-5 ">07</li>
+    </ul>
+ </div>
+
+
+
+
+
+
+
+ <br><br><hr><br><br>
+
+
+<h1>GRID</h1> 
+
+
+
+ <div class="w-100 grid grid-cols-3 grid-rows-4 gap-5">
+    <div class="p-10 bg-green-200">01</div>
+    <div class="p-10 bg-green-200">02</div>
+    <div class="p-10 bg-green-200">03</div>
+    <div class="p-10 bg-green-200">04</div>
+    <div class="p-10 bg-green-200">05</div>
+    <div class="p-10 bg-green-200">06</div>
+    <div class="p-10 bg-green-200">07</div>
+    <div class="p-10 bg-green-200">08</div>
+    <div class="p-10 bg-green-200">09</div>
+ </div>
+
+
+
+
+
+ <br><br><hr><br><br>
+
+
+
+<h1>ROW AND COL SPAN</h1>
+
+<br>
+
+ <div class="w-100 grid grid-cols-3 gap-5">
+    <div class="p-10 bg-green-200 col-span-2 row-span-2">01</div>
+    <div class="p-10 bg-green-200">02</div>
+    <div class="p-10 bg-green-200">03</div>
+    <div class="p-10 bg-green-200">04</div>
+    <div class="p-10 bg-green-200">05</div>
+    <div class="p-10 bg-green-200">06</div>
+
+
+    <br><br><br>
+    <div class="p-10 bg-teal-200 col-span-3">07</div>
+    <div class="p-10 bg-teal-200 ">08</div>
+    <div class="p-10 bg-teal-200 col-span-2">09</div>
+ </div>
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
